@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		257443A51B40C7B400E22C20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257443A41B40C7B400E22C20 /* AppDelegate.swift */; };
+		257443A71B40C7B400E22C20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257443A61B40C7B400E22C20 /* ViewController.swift */; };
+		257443AA1B40C7B400E22C20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 257443A81B40C7B400E22C20 /* Main.storyboard */; };
+		257443AC1B40C7B400E22C20 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 257443AB1B40C7B400E22C20 /* Images.xcassets */; };
+		257443AF1B40C7B400E22C20 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 257443AD1B40C7B400E22C20 /* LaunchScreen.xib */; };
+		257443BB1B40C7B400E22C20 /* WarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257443BA1B40C7B400E22C20 /* WarTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		257443B51B40C7B400E22C20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 257443971B40C7B400E22C20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2574439E1B40C7B400E22C20;
+			remoteInfo = War;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2574439F1B40C7B400E22C20 /* CardWar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardWar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		257443A31B40C7B400E22C20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		257443A41B40C7B400E22C20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		257443A61B40C7B400E22C20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		257443A91B40C7B400E22C20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		257443AB1B40C7B400E22C20 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		257443AE1B40C7B400E22C20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		257443B41B40C7B400E22C20 /* CardWar.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardWar.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		257443B91B40C7B400E22C20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		257443BA1B40C7B400E22C20 /* WarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2574439C1B40C7B400E22C20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		257443B11B40C7B400E22C20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		257443961B40C7B400E22C20 = {
+			isa = PBXGroup;
+			children = (
+				257443A11B40C7B400E22C20 /* War */,
+				257443B71B40C7B400E22C20 /* WarTests */,
+				257443A01B40C7B400E22C20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		257443A01B40C7B400E22C20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2574439F1B40C7B400E22C20 /* CardWar.app */,
+				257443B41B40C7B400E22C20 /* CardWar.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		257443A11B40C7B400E22C20 /* War */ = {
+			isa = PBXGroup;
+			children = (
+				257443A41B40C7B400E22C20 /* AppDelegate.swift */,
+				257443A61B40C7B400E22C20 /* ViewController.swift */,
+				257443A81B40C7B400E22C20 /* Main.storyboard */,
+				257443AB1B40C7B400E22C20 /* Images.xcassets */,
+				257443AD1B40C7B400E22C20 /* LaunchScreen.xib */,
+				257443A21B40C7B400E22C20 /* Supporting Files */,
+			);
+			path = War;
+			sourceTree = "<group>";
+		};
+		257443A21B40C7B400E22C20 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				257443A31B40C7B400E22C20 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		257443B71B40C7B400E22C20 /* WarTests */ = {
+			isa = PBXGroup;
+			children = (
+				257443BA1B40C7B400E22C20 /* WarTests.swift */,
+				257443B81B40C7B400E22C20 /* Supporting Files */,
+			);
+			path = WarTests;
+			sourceTree = "<group>";
+		};
+		257443B81B40C7B400E22C20 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				257443B91B40C7B400E22C20 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2574439E1B40C7B400E22C20 /* CardWar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 257443BE1B40C7B400E22C20 /* Build configuration list for PBXNativeTarget "CardWar" */;
+			buildPhases = (
+				2574439B1B40C7B400E22C20 /* Sources */,
+				2574439C1B40C7B400E22C20 /* Frameworks */,
+				2574439D1B40C7B400E22C20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardWar;
+			productName = War;
+			productReference = 2574439F1B40C7B400E22C20 /* CardWar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		257443B31B40C7B400E22C20 /* CardWarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 257443C11B40C7B400E22C20 /* Build configuration list for PBXNativeTarget "CardWarTests" */;
+			buildPhases = (
+				257443B01B40C7B400E22C20 /* Sources */,
+				257443B11B40C7B400E22C20 /* Frameworks */,
+				257443B21B40C7B400E22C20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				257443B61B40C7B400E22C20 /* PBXTargetDependency */,
+			);
+			name = CardWarTests;
+			productName = WarTests;
+			productReference = 257443B41B40C7B400E22C20 /* CardWar.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		257443971B40C7B400E22C20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Jia Liu";
+				TargetAttributes = {
+					2574439E1B40C7B400E22C20 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					257443B31B40C7B400E22C20 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 2574439E1B40C7B400E22C20;
+					};
+				};
+			};
+			buildConfigurationList = 2574439A1B40C7B400E22C20 /* Build configuration list for PBXProject "CardWar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 257443961B40C7B400E22C20;
+			productRefGroup = 257443A01B40C7B400E22C20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2574439E1B40C7B400E22C20 /* CardWar */,
+				257443B31B40C7B400E22C20 /* CardWarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2574439D1B40C7B400E22C20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257443AA1B40C7B400E22C20 /* Main.storyboard in Resources */,
+				257443AF1B40C7B400E22C20 /* LaunchScreen.xib in Resources */,
+				257443AC1B40C7B400E22C20 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		257443B21B40C7B400E22C20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2574439B1B40C7B400E22C20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257443A71B40C7B400E22C20 /* ViewController.swift in Sources */,
+				257443A51B40C7B400E22C20 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		257443B01B40C7B400E22C20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257443BB1B40C7B400E22C20 /* WarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		257443B61B40C7B400E22C20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2574439E1B40C7B400E22C20 /* CardWar */;
+			targetProxy = 257443B51B40C7B400E22C20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		257443A81B40C7B400E22C20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				257443A91B40C7B400E22C20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		257443AD1B40C7B400E22C20 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				257443AE1B40C7B400E22C20 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		257443BC1B40C7B400E22C20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		257443BD1B40C7B400E22C20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		257443BF1B40C7B400E22C20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = War/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jialiu54321.CardWar;
+				PRODUCT_NAME = CardWar;
+			};
+			name = Debug;
+		};
+		257443C01B40C7B400E22C20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = War/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jialiu54321.CardWar;
+				PRODUCT_NAME = CardWar;
+			};
+			name = Release;
+		};
+		257443C21B40C7B400E22C20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = CardWar;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardWar.app/CardWar";
+			};
+			name = Debug;
+		};
+		257443C31B40C7B400E22C20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = CardWar;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardWar.app/CardWar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2574439A1B40C7B400E22C20 /* Build configuration list for PBXProject "CardWar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				257443BC1B40C7B400E22C20 /* Debug */,
+				257443BD1B40C7B400E22C20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		257443BE1B40C7B400E22C20 /* Build configuration list for PBXNativeTarget "CardWar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				257443BF1B40C7B400E22C20 /* Debug */,
+				257443C01B40C7B400E22C20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		257443C11B40C7B400E22C20 /* Build configuration list for PBXNativeTarget "CardWarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				257443C21B40C7B400E22C20 /* Debug */,
+				257443C31B40C7B400E22C20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 257443971B40C7B400E22C20 /* Project object */;
+}
